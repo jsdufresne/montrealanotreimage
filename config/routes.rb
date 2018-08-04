@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users,
-      controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
+  get "/pages/:page" => "pages#show"
+
+  #devise_for :users,
+   #   controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
   root to: 'pages#home'
 
   resources :user, only: [:show, :index, :new, :create]
