@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get ":page" => "pages#show"
+  get "/pages/:page" => "pages#show"
 
   #devise_for :users,
    #   controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
