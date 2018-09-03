@@ -1,37 +1,90 @@
-<div class="banner" style="background-image: url('<%= image_path 'Fond_ville.png' %>');">
+<div style="background-image: url('<%= image_path 'Fond_ParticipantsParc.png' %>');   background-size: cover !important;
+  background-position: center;">
+  <div class="navbar-wagon hidden-xs hidden-sm"">
+  <!-- Logo -->
+<%= link_to root_path, class: "navbar-wagon-brand" do %>
 
+  <% end %>
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Text link -->
+    <!-- <a data-toggle="modal" data-target="#parents" class="navbar-wagon-item navbar-wagon-link">PARENTS</a> -->
+
+    <!-- Text link -->
+    <!-- a href="http://www.iciela.org/wp/benevoles/" class="navbar-wagon-item navbar-wagon-link">BÉNÉVOLES</a>
+
+    <!-- Text link -->
+  <!--<a href="https://drive.google.com/file/d/1hYVhfflDKkHIvzjVBAy4_cW-oAq7DyvV/view?usp=sharing" class="navbar-wagon-item navbar-wagon-link">EMPLOIS</a>
+
+    <!-- Text link -->
+       <a href="../pages/ete2018" class="navbar-wagon-item navbar-wagon-link">ETE 2018</a>
+    <a href="http://www.iciela.org/wp/mentors-benevoles/" data-toggle="modal" class="navbar-wagon-item navbar-wagon-link">MENTORS</a>
+
+    <!-- Button (call-to-action) -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFRxHBYPJ2LpVI0xIiEwitNit5MhV2MHZbD7rZvd_7FjuXZA/viewform?usp=sf_link" class="navbar-wagon-item navbar-wagon-button">JE M'INSCRIS</a>
+    <a href="http://www.iciela.org/wp/mentors-benevoles/" data-toggle="modal" class="navbar-wagon-item navbar-wagon-link"></a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <!--
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Inscription</a></li>
+        <li><a href="#">Parents</a></li>
+        <li><a href="#">Bénévoles</a></li>
+        <li><a href="#">Partenaires</a></li>
+      </ul>
+    </div>
+  </div>
+    -->
+</div>
+  <div class="banner">
+<div class="col 12">
 <div class="banner-content">
-  <div class="logo-grand">
+  <div class="logo-grand hidden-md hidden-lg">
     <%= image_tag("logo_grand.png", width:'250', alt:"Montréal à notre image") %>
   </div>
-
-  <div class="col m12 hidden-xs hidden-sm">
-    <%= image_tag "background_Fatima.png", id: "left-img" %>
-    <%= image_tag "background_Eloise.png", id: "right-img" %>
+    <div class="logo-grand hidden-xs hidden-sm">
+    <%= image_tag("logo_grand.png", width:'350', alt:"Montréal à notre image") %>
   </div>
-
-    <h1>Deviens un jeune leader interculturel!</h1>
-
+ <div class="navbar-wagon-right hidden-xs hidden-sm hidden-md">
+    <h1>Joins-toi à l'équipe de Leaders interculturels!</h1>
+ </div>
+  <div class="navbar-wagon-right hidden-lg">
+    <h5>Joins-toi à l'équipe de Leaders interculturels!</h5>
+ </div>
   <div class="inscription">
     <a a href="https://docs.google.com/forms/d/e/1FAIpQLSeFRxHBYPJ2LpVI0xIiEwitNit5MhV2MHZbD7rZvd_7FjuXZA/viewform?usp=sf_link" class="banner-wagon-item banner-wagon-button inscription">INSCRIPTION</a>
   </div>
 
   <div class="col m12 hidden-xs hidden-sm">
-    <h3><br>Partage ton goût<br>pour la rencontre</h3>
-  </div>
+    <h3><br>L'aventure d'exploration de la diversité<br>de Montréal pour les 12 à 17 ans</h3>
 
-    <h3>Septembre à décembre 2018</h3><h2>C'est gratuit!</h2>
+    <h3>Septembre à décembre 2018</h3>
+ </div>
+
+   <div class="col m12 hidden-md hidden-lg">
+    <h6><br>L'aventure d'exploration de la diversité<br>de Montréal pour les 12 à 17 ans</h6>
+
+
+    <h6>Septembre à décembre 2018</h6>
+ </div>
+
+    <h2>C'est gratuit!</h2>
+</div>
+</div>
+<div class="col m12 hidden-xs hidden-sm">
+<section id="section10" class="demo">
+  <a href="#thanks"><span></span></a>
+</section>
+</div>
 
 </div>
 
-<% content_for(:after_js) do %>
-  <script>
-    $(document).ready(function() {
-      $("#left-img").css({"left": -10});
-      $("#right-img").css({"right": -0});
-    });
-  </script>
-<% end %>
+
 
 
 

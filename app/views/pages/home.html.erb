@@ -1,6 +1,7 @@
       <section >
 
 <div id="home-page">
+
   <%= render 'shared/banner' %>
 </div>
 </section>
@@ -10,36 +11,41 @@
   <div class="row">
     <div class="col-xs-12 col-sm-4">
       <div class="description">
-        <i class="fas fa-map" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
-        <h3><strong>Une formation expérientielle</strong></h3>
-        <p>Suis un programme qui combine des formations en grand groupe et des séances de travail pratiques.</p>
+         <%= image_tag "icon1.png", width:"150px", align:"center", margintop:"10px" %>
+        <h3><strong>1. Joins-toi à l’équipe</strong></h3>
+        <p>Rencontre d'autres jeunes curieux qui veulent découvrir leur ville, et participe à des journées d'activités pour mieux vous connaitre et former une équipe.</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-4">
       <div class="description">
-        <i class="fas fa-video" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
-        <h3><strong>Partage ton goût pour la rencontre</strong></h3>
-        <p>Accompagné par un mentor, organise en équipe ta propre activité de rencontre interculturelle destinée au grand public.</p>
+         <%= image_tag "icon2.png", width:"150px", align:"center", margintop:"10px" %>
+        <h3><strong>2. Organise une activité d'exploration</strong></h3>
+        <p>Avec l'accompagnement d'un mentor, organise en équipe ta propre activité publique de découverte de la diversité.</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-4">
       <div class="description">
-        <i class="fas fa-share-alt" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
-        <h3><strong>Fais partie de la communauté</strong></h3>
-        <p>Rencontre des jeunes passionnés et allumés du Canada et d’ailleurs et fait partie prenante d’une communauté engagée pour un meilleur vivre ensemble.</p>
+         <%= image_tag "icon3.png", width:"100px", align:"center", margintop:"10px" %>
+        <h3><strong>3. Deviens un leader de ta communauté</strong></h3>
+        <p>Après avoir complété l'activité, devient un leader interculturel reconnu qui fait des ponts entre les communautés.</p>
       </div>
     </div>
   </div>
 </div>
 </section>
-<section class="section3" style="background-image: linear-gradient(-225deg, rgba(255,255,255,0.5) 20%,rgba(246,239,248,0.5) 23%,rgba(152,83,179,0.6) 53%,rgba(150,88,181,0.4) 54%,rgba(86,229,235,0.4) 81%,rgba(74,255,245,0.2) 86%,rgba(255,255,255,0.8) 100%,rgba(255,255,255,0.9) 101%), url('<%= image_path 'groupe_mains.png' %>');">
+<section class="section3" style="background-image: linear-gradient(-225deg, rgba(255,255,255,0.5) 20%,rgba(246,239,248,0.5) 23%,rgba(152,83,179,0.6) 53%,rgba(150,88,181,0.4) 54%,rgba(86,229,235,0.4) 81%,rgba(74,255,245,0.2) 86%,rgba(255,255,255,0.8) 100%,rgba(255,255,255,0.9) 101%), url('<%= image_path 'groupe_discussion.png' %>');">
   <div class="container" style="vertical-align: middle">
     <div class="howitwork">
       <div align="center">
-          <%= image_tag "Logo_MtlAnotreImage_MANI.png", alt:"Montréal à notre image", width:"400px", align:"center" %>
-          <h3><strong>Complète le programme de leadership interculturel et tu recevras un certificat de participation qui mettra de l’avant tes nouvelles compétences de leader positif dans ta communauté.<br><br></h3>
-          <h4>Joins-toi à la cohorte de jeunes leaders interculturels de Montréal!</strong></h4><br>
-         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFRxHBYPJ2LpVI0xIiEwitNit5MhV2MHZbD7rZvd_7FjuXZA/viewform?usp=sf_link" class="banner-wagon-item banner-wagon-button inscription">SOUMETS TA CANDIDATURE</a>
+            <div class="logo-grand hidden-xs hidden-sm">
+          <%= image_tag "Logo_MtlAnotreImage_MANI_mission.png", alt:"Montréal à notre image", width:"400px", align:"center" %>
+            </div>
+            <div class="logo-grand hidden-md hidden-lg">
+          <%= image_tag "Logo_MtlAnotreImage_MANI_mission.png", alt:"Montréal à notre image", width:"250px", align:"center" %>
+            </div>
+          <h3>Ta mission, si tu l'acceptes, sera d'organiser avec ton équipe de leaders interculturels et un mentor une activité publique qui permettra la découverte d'une communauté culturelle de ta ville et encouragera les échanges et le partage. <br><br>Cette actviité se tiendra dans le cadre de la Semaine québécoise des rencontres interculturelles en novembre.<br></h3>
+          <h4>Joins-toi à la cohorte de jeunes leaders interculturels de Montréal!</h4><br>
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFRxHBYPJ2LpVI0xIiEwitNit5MhV2MHZbD7rZvd_7FjuXZA/viewform?usp=sf_link" class="banner-wagon-item banner-wagon-button inscription">INSCRIPTION</a>
          <h3>C'est gratuit mais les places sont limitées!<h3>
       </div>
     </div>
@@ -169,12 +175,18 @@
     </div>
 </section>
 
-<section class="section3" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path 'IMG_7494.jpg' %>');">
+<section class="section3" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path 'groupe_fond.png' %>');">
   <div class="container" style="vertical-align: middle">
     <div class="howitwork">
       <div align="center">
-                  <%= image_tag "Logo_MtlAnotreImage_MANI.png", alt:"Montréal à notre image", width:"400px", align:"center" %>
-         <h3><strong>Un film pour partager l'expérience</strong><br>Une série de projections publiques se sont tenues à l'automne 2017 pour susciter la réflexion sur le Vivre ensemble.
+                    <div class="logo-grand hidden-xs hidden-sm">
+          <%= image_tag "Logo_MtlAnotreImage_MANI_film.png", alt:"Montréal à notre image", width:"400px", align:"center" %>
+            </div>
+            <div class="logo-grand hidden-md hidden-lg">
+          <%= image_tag "Logo_MtlAnotreImage_MANI_film.png", alt:"Montréal à notre image", width:"250px", align:"center" %>
+            </div>
+
+         <h3><strong>Un film pour capter et partager l'expérience</strong><br>Des images vidéo sont tournées tout au long de l'expérience afin de produire un film présentant le chemin parcouru par les participantes et participants.<br><br>Film réalisé lors de l'édition 2017 de Montréal à notre image:
          <br><br>
          <div class="video-container"><iframe width="840" height="473" src="https://www.youtube.com/embed/EZGck-jclfQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div><br><br>
       </div>
@@ -182,33 +194,57 @@
   </div>
 </section>
 
-<section class="section1">
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-6"  style="background-image: url(background_Fatima.png);">
-      <div class="description">
+<section >
+<div >
+
+
+
+
+  <div class="row"" style="height: 100%;">
+    <div style="bottom:0; left:0;">
+    <div class="col-xs-12 col-sm-6 section1"  style="background-image: url(background_Fatima.png); min-height: 100%; height:100%;   ">
+      <div class="col-xs-6 col-sm-6 hidden-xs hidden-sm" style="text-align:left; vertical-align: bottom; min-height: 100%; height:100%; flex: 1; bottom: 0; margin-top: auto;position: relative;">
+              <%= image_tag "background_Fatima.png", align:"left", position:"absolute",
+    bottom:"0", left:"0";
+  %>
+            </div>
+
+
+              <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6" style="min-height: 100%; height:100%;vertical-align:middle;">
+      <div class="description"   style="background-image: url(background_Fatima.png); min-height: 100%; height:100%;">
         <i class="fa fa-user-plus" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
-        <h3><strong>Tu as entre 12 et 17 ans?</strong>
+        <h2><strong>Tu as entre 12 et 17 ans?</strong>
          <br>
-        Inscris-toi dès maintenant pour participer à l'aventure!</h3>
+        Inscris-toi dès maintenant pour participer à l'aventure!</h2>
         <br>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeFRxHBYPJ2LpVI0xIiEwitNit5MhV2MHZbD7rZvd_7FjuXZA/viewform?usp=sf_link" class="banner-wagon-item banner-wagon-button inscription">JE M'INSCRIS</a></p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeFRxHBYPJ2LpVI0xIiEwitNit5MhV2MHZbD7rZvd_7FjuXZA/viewform?usp=sf_link" class="banner-wagon-item banner-wagon-button inscription">INSCRIPTION</a></p>
+      </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6">
+
+
+    <div class="col-xs-12 col-sm-6 container-inm" >
+      <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
       <div class="description">
         <i class="fas fa-users" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
-        <h3><strong>Tu as plus que 17 ans?</strong>
+        <!-- <%= image_tag "background_Eloise.png", id: "right-img" %>-->
+        <h2><strong>Tu as plus que 17 ans?</strong>
          <br>
-        Deviens <strong>mentor interculturel</strong> pour accompagner les participants!</h3>
+        Deviens <strong>mentor interculturel</strong> pour accompagner les participants!</h2>
         <br>
-        <p><a href="http://www.iciela.org/wp/mentors-benevoles/" class="banner-wagon-item banner-wagon-button inscription">JE DEVIENS MENTOR</a></p>
+        <p><a href="http://www.iciela.org/wp/mentors-benevoles/" class="banner-wagon-item banner-wagon-button inscription">SAVOIR PLUS</a></p>
       </div>
-    </div>
+ </div>
+
+            <div class="col-xs-6 col-sm-6 hidden-xs hidden-sm" style="text-align:right">
+              <%= image_tag "background_Leo.png", align:"right"  %>
+            </div>
+</div>
+</div>
   </div>
 </div>
 </section>
-<!--
+
 
 <div class="modal fade" id="benevoles" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="vertical-alignment-helper">
@@ -273,8 +309,10 @@
         </div>
     </div>
 </div>
--->
-
+  <!-- Right Navigation
+             <div class="col m12 hidden-xs hidden-sm">
+            <%= image_tag "background_Fatima.png", id: "left-img" %>
+              </div>-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -285,4 +323,13 @@
   ga('send', 'pageview');
 
 </script>
+
+<% content_for(:after_js) do %>
+  <script>
+    $(document).ready(function() {
+      $("#left-img").css({"left": -10});
+      $("#right-img").css({"right": -0});
+    });
+  </script>
+<% end %>
 
