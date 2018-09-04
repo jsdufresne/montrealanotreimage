@@ -202,17 +202,18 @@
 
   <div class="row"" style="height: 100%;">
     <div style="bottom:0; left:0;">
-    <div class="col-xs-12 col-sm-6 section1"  style="background-image: url(background_Fatima.png); min-height: 100%; height:100%;   ">
-      <div class="col-xs-6 col-sm-6 hidden-xs hidden-sm" style="text-align:left; vertical-align: bottom; min-height: 100%; height:100%; flex: 1; bottom: 0; margin-top: auto;position: relative;">
-              <%= image_tag "background_Fatima.png", align:"left", position:"absolute",
-    bottom:"0", left:"0";
+    <div class="col-xs-12 col-sm-6 section1"  style="background-image: url(background_Fatima.png); min-height: 100%; height:100%;  vertical-align:middle;">
+      <div class="col-xs-6 col-sm-6 hidden-xs hidden-sm" style="text-align:left; vertical-align: bottom; min-height: 100%; height:100%; flex: 1; bottom: 0; margin-top: auto;">
+              <%= image_tag "background_Fatima.png", width: "424"  ;
   %>
             </div>
 
 
-              <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6" style="min-height: 100%; height:100%;vertical-align:middle;">
-      <div class="description"   style="background-image: url(background_Fatima.png); min-height: 100%; height:100%;">
-        <i class="fa fa-user-plus" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
+              <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6" style="min-height: 100%; height:800px;vertical-align:middle;display: table-cell;">
+      <div class="description"   style="background-image: url(background_Fatima.png);vertical-align:middle;">
+                       <%= image_tag "icon7.png", width:"100px", align:"center", margintop:"10px"
+     %>
+
         <h2><strong>Tu as entre 12 et 17 ans?</strong>
          <br>
         Inscris-toi dès maintenant pour participer à l'aventure!</h2>
@@ -224,9 +225,11 @@
 
 
     <div class="col-xs-12 col-sm-6 container-inm" >
-      <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
-      <div class="description">
-        <i class="fas fa-users" aria-hidden="true" style="text-decoration: none; margin-top: 10px; font-size: 60px"></i>
+      <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6" >
+      <div class="description"">
+                 <%= image_tag "icon8.png", width:"100px", align:"center", margintop:"10px"
+     %>
+
         <!-- <%= image_tag "background_Eloise.png", id: "right-img" %>-->
         <h2><strong>Tu as plus que 17 ans?</strong>
          <br>
@@ -236,8 +239,8 @@
       </div>
  </div>
 
-            <div class="col-xs-6 col-sm-6 hidden-xs hidden-sm" style="text-align:right">
-              <%= image_tag "background_Leo.png", align:"right"  %>
+            <div class="col-xs-6 col-sm-6 hidden-xs hidden-sm" style="text-align:left; vertical-align: bottom; min-height: 100%; height:100%; flex: 1; bottom: 0; margin-top: auto;"">
+              <%= image_tag "background_Leo.png", align:"right", width: "424"  %>
             </div>
 </div>
 </div>
