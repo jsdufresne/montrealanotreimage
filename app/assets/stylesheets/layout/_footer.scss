@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgba(240, 240, 240, 0.3);
+  background-color: rgba(240, 240, 240, 1);
   z-index: 100;
   text-decoration: none;
   display: flex;
@@ -22,9 +22,22 @@
 }
 
 .footer-copyright {
- text-align: center;
- font-size: 14px;
- margin-bottom: 5px;
+color: black;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(240, 240, 240, 1);
+  z-index: 100;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-bottom: 30px;
+  }
 }
 
 .fa-facebook:hover .fa-twitter:hover{
