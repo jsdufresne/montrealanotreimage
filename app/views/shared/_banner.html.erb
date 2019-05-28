@@ -1,47 +1,25 @@
-
-
-
-
-
+  <!-- Banner Background -->
 <div class="fullscreen-bg">
   <%= video_tag( 'BackVideoMANI2.mp4', id: 'background', autoplay: true, loop: true, muted: true,poster: 'Fond_ParticipantsParc.png' )%>
-
-    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg_video">
-        <source src="https://youtu.be/bGnSkQda7mI" type="video/webm">
-        <source src="https://youtu.be/bGnSkQda7mI" type="video/mp4">
-        <source src="https://youtu.be/bGnSkQda7mI" type="video/ogg">
-    </video>
 </div>
 
-  <div class="navbar-wagon hidden-xs hidden-sm">
+<div class="navbar-wagon hidden-xs hidden-sm">
+
   <!-- Logo -->
-<%= link_to root_path, class: "navbar-wagon-brand" do %>
-
+  <%= link_to root_path, class: "navbar-wagon-brand" do %>
   <% end %>
-  <!-- Right Navigation -->
 
+  <!-- Right Navigation -->
   <div class="navbar-wagon-left hidden-xs hidden-sm" style="text-align:left; vertical-align: bottom; flex: 1; bottom: 0; flex-wrap: wrap; margin-top: auto; left:10; margin: 100px;        padding: 10px;">
             <%= image_tag "Logo_MtlAnotreImage_MANI.png", alt:"Montréal à notre image", width:"150px", align:"left" %>
   </div>
 
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <!-- Text link -->
-    <!-- <a data-toggle="modal" data-target="#parents" class="navbar-wagon-item navbar-wagon-link">PARENTS</a> -->
-
-    <!-- Text link -->
-    <!-- a href="http://www.iciela.org/wp/benevoles/" class="navbar-wagon-item navbar-wagon-link">BÉNÉVOLES</a>
-
-    <!-- Text link -->
-  <!--<a href="https://drive.google.com/file/d/1hYVhfflDKkHIvzjVBAy4_cW-oAq7DyvV/view?usp=sharing" class="navbar-wagon-item navbar-wagon-link">EMPLOIS</a>
-
-    <!-- Text link -->
-       <a href="../pages/ete2018" class="navbar-wagon-item navbar-wagon-link">EDITION 2018</a>
+    <a href="../pages/ete2018" class="navbar-wagon-item navbar-wagon-link">EDITION 2018</a>
     <a href="http://www.iciela.org/wp/mentors-benevoles/" data-toggle="modal" class="navbar-wagon-item navbar-wagon-link">MENTORS</a>
-     <a href="https://docs.google.com/forms/d/e/1FAIpQLSctMJrAXMbql1kCCpkRgkEovlLwazGZjgi6ZW-xDqvvqhTagA/viewform?usp=sf_link" class="button-main button-light">JE VEUX PARTICIPER</a>
-    <a href="http://www.iciela.org/wp/mentors-benevoles/" data-toggle="modal" class="navbar-wagon-item navbar-wagon-link"></a>
-
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSctMJrAXMbql1kCCpkRgkEovlLwazGZjgi6ZW-xDqvvqhTagA/viewform?usp=sf_link" class="button-main button-light">JE VEUX PARTICIPER</a>
   </div>
+
   <!-- Dropdown appearing on mobile only -->
   <!--
   <div class="navbar-wagon-item hidden-md hidden-lg">
@@ -61,55 +39,41 @@
 
 <div class="banner">
 
-<div class="col-xs-12 col-sm-8" style="align-items: right;">
-  <div class="banner-content">
+  <!-- Main Logo -->
+  <div class="col-xs-12 col-sm-8" style="align-items: right;">
+    <div class="banner-content">
       <div class="logo-grand hidden-md hidden-lg" style="align-items: right;">
           <%= image_tag("Logo_MtlAnotreImage_MANI_logos.png", width:'350', alt:"Montréal à notre image", align:'right') %>
       </div>
       <div class="logo-grand hidden-xs hidden-sm" style="align-items: right;">
          <%= image_tag("Logo_MtlAnotreImage_MANI_logos2.png", width:'450', alt:"Montréal à notre image", align:'right') %>
       </div>
+    </div>
   </div>
-</div>
 
   <!--
   <div class="inscription">
     <a a href="https://docs.google.com/forms/d/e/1FAIpQLSctMJrAXMbql1kCCpkRgkEovlLwazGZjgi6ZW-xDqvvqhTagA/viewform?usp=sf_link" class="banner-wagon-item banner-wagon-button inscription">INSCRIPTION</a>
   </div>
     -->
-<div class="col-xs-12 col-sm-8" style="">
-  <div class="hidden-xs hidden-sm hidden-md" style="align-items: left;">
-    <h1>Programme de leadership interculturel</h1>
-    <h3blanc2><br>Développe tes compétences <b>citoyennes</b><br>et <b>interculturelles</b> pour agir et mettre <br>en valeur la <b>diversité de Montréal!</b><BR><BR>Juillet à novembre 2019 &#8226; 12 à 17 ans</h3blanc2><br><br><br>
+
+   <!-- Main Text -->
+  <div class="col-xs-12 col-sm-8" style="">
+    <div class="hidden-xs hidden-sm hidden-md" style="align-items: left;">
+      <h1>Programme de leadership interculturel</h1>
+      <h3blanc2><br>Développe tes compétences <b>citoyennes</b><br>et <b>interculturelles</b> pour agir et mettre <br>en valeur la <b>diversité de Montréal!</b><BR><BR>Juillet à novembre 2019 &#8226; 12 à 17 ans</h3blanc2><br><br><br>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSctMJrAXMbql1kCCpkRgkEovlLwazGZjgi6ZW-xDqvvqhTagA/viewform?usp=sf_link" class="button-main button-light home_see_how_btn" >SOUMETS TA CANDIDATURE MAINTENANT!</a>
+    </div>
+    <div class="hidden-lg" style="align-items: center;">
+      <h1>Programme de leadership interculturel</h1>
+      <h3blanc2>Développe tes<br> compétences <b>citoyennes</b><br>et <b>interculturelles</b> pour mettre en valeur <br>la <b>diversité de Montréal!</b></h3blanc2><br><br><br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSctMJrAXMbql1kCCpkRgkEovlLwazGZjgi6ZW-xDqvvqhTagA/viewform?usp=sf_link" class="button-main button-light home_see_how_btn" >INSCRIS-TOI!</a>
+    </div>
   </div>
-  <div class="hidden-lg" style="align-items: left;">
-    <h1>Programme de leadership interculturel</h1>
-    <h3blanc2>Développe tes<br> compétences <b>citoyennes</b><br>et <b>interculturelles</b> pour mettre en valeur <br>la <b>diversité de Montréal!</b></h3blanc2><br><br>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSctMJrAXMbql1kCCpkRgkEovlLwazGZjgi6ZW-xDqvvqhTagA/viewform?usp=sf_link" class="navbar-wagon-item navbar-wagon-button">JUILLET À NOVEMBRE 2019</a>
-  </div>
-</div>
-
-</div>
-
-<!--
-    <h6>Septembre à décembre 2018</h6>
- </div>
-
-    <h2>C'est gratuit!</h2>
-  -->
-</div>
-</div>
-<div class="col m12 hidden-xs hidden-sm">
-<section id="section10" class="demo">
-  <a href="#thanks"><span></span></a>
-</section>
-</div>
 
 </div>
 
 
-</div>
 
 
 
