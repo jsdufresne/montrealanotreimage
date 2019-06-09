@@ -598,13 +598,13 @@ flex-wrap: wrap;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 300px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
   ul {
     margin-top: 30px;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 300px) {
       display: flex;
       flex-wrap: wrap;
       margin-top: 60px;
@@ -670,7 +670,7 @@ flex-wrap: wrap;
     margin:20px 0px;
     min-height:300px;
     @media all and (min-width: 768px) {
-      min-height:700px;
+      min-height:300px;
     }
   }
 }
