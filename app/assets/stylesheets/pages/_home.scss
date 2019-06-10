@@ -203,6 +203,13 @@ align-items: center;
     opacity: .5
 }
 
+.button-dark {
+    color: #1b2d34;
+    background-color: transparent;
+    border-color: #1b2d34;
+    opacity: .5
+}
+
 .button-light:hover {
     opacity: 1;
     color: #fff!important;
@@ -610,7 +617,6 @@ flex-wrap: wrap;
       margin-top: 60px;
     }
     li {
-      margin-bottom: 30px;
       background-color: white;
       border-radius: 5px;
       border: 2px solid transparent;
