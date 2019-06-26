@@ -8,6 +8,8 @@
   flex-direction: row;
   color: white;
   border-radius: 5px;
+  background: #1b3a4b;
+
 }
 
 .image-small {
@@ -18,8 +20,10 @@
   width: 550px;
   height: 480px;
   position: relative;
+  background: #333;
   top: 45px;
   left: 55px;
+  opacity: 0.5;
 }
 
 .card-graphics {
@@ -48,7 +52,7 @@
 
 .card-features-container {
   display: flex;
-  background: #fff;
+  background: #333;
   width: 550px;
   position: absolute;
   bottom: 0;
@@ -58,6 +62,7 @@
   opacity: .7;
   padding: 0 1em 3em 1em;
   font-weight: 700;
+  opacity: 0.5;
   p {
     width: 65px;
     text-align: center;
