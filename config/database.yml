@@ -83,3 +83,5 @@ production:
   database: montrealanotreimage_production
   username: montrealanotreimage
   password: <%= ENV['MONTREALANOTREIMAGE_DATABASE_PASSWORD'] %>
+
+  host: localhost
