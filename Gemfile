@@ -4,7 +4,7 @@ ruby '2.5.1'
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
-gem 'pg'
+gem 'pg', '~> 0.18'
 gem 'puma'
 gem 'rails', '5.0.4'
 gem 'redis'
@@ -37,6 +37,7 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg', '~> 0.18'
 end
 
 group :development, :test do
